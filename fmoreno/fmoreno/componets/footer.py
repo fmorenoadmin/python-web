@@ -11,6 +11,11 @@ def footer() -> rx.Component:
     return rx.center(
         rx.vstack(
             rx.hstack(
+                rx.image(src="https://www.frankmorenoalburqueque.com/assets/images/ico490x458.webp", width="100px", height="auto"),
+                align="center",
+                margin_bottom=Size.BIG.value,
+            ),
+            rx.hstack(
                 rx.text("Copyright © 2017-" + year),
                 rx.link(
                     "Frank Moreno",
@@ -18,7 +23,6 @@ def footer() -> rx.Component:
                     is_external="true",
                 ),
                 rx.text("Todos los derechos reservados."),
-                rx.image(src="https://www.frankmorenoalburqueque.com/assets/images/ico490x458.webp", width="100px", height="auto"),
                 align="baseline",
                 margin_bottom=Size.BIG.value,
             ),

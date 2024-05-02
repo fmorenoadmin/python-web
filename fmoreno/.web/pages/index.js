@@ -14,6 +14,66 @@ import NextHead from "next/head"
 
 
 
+export function Link_8bc6df5a76cff4312ce093083606ad64 () {
+
+
+  return (
+    <RadixThemesLink asChild={true} css={{"textDecortion": "none", "&:hover": null}} target={isTrue(true) ? `_blank` : ``}>
+  <NextLink href={`https://frankmorenoalburqueque.com/`} passHref={true}>
+  {`Frank Moreno`}
+</NextLink>
+</RadixThemesLink>
+  )
+}
+
+export function Link_f886267ee8ffb1b252b84067a62d38ed () {
+
+
+  return (
+    <RadixThemesLink asChild={true} css={{"textDecortion": "none", "&:hover": null}} target={isTrue(true) ? `_blank` : ``}>
+  <NextLink href={`https://www.instagram.com/fmorenoadmin/`} passHref={true}>
+  <LucideLinkIcon css={{"color": "var(--current-color)"}}>
+  {`link`}
+</LucideLinkIcon>
+</NextLink>
+</RadixThemesLink>
+  )
+}
+
+export function Fragment_966c0378eb9d65bdfb5286644be9b831 () {
+  const [addEvents, connectErrors] = useContext(EventLoopContext);
+  const state = useContext(StateContexts.state)
+
+
+  return (
+    <Fragment>
+  {isTrue(((!state.is_hydrated) || (connectErrors.length > 0))) ? (
+  <Fragment>
+  <LucideWifiOffIcon css={{"color": "crimson", "zIndex": 9999, "position": "fixed", "bottom": "30px", "right": "30px", "animation": `${pulse} 1s infinite`}} size={32}>
+  {`wifi_off`}
+</LucideWifiOffIcon>
+</Fragment>
+) : (
+  <Fragment/>
+)}
+</Fragment>
+  )
+}
+
+export function Link_8220fcbb3a555b82af06578fc4ec3ba6 () {
+
+
+  return (
+    <RadixThemesLink asChild={true} css={{"textDecortion": "none", "&:hover": null}} target={isTrue(true) ? `_blank` : ``}>
+  <NextLink href={`https://www.facebook.com/fmorenoadmin/`} passHref={true}>
+  <LucideLinkIcon css={{"color": "var(--current-color)"}}>
+  {`link`}
+</LucideLinkIcon>
+</NextLink>
+</RadixThemesLink>
+  )
+}
+
 export function Link_bd5df7bc9e7545e08391a40533840622 () {
 
 
@@ -67,6 +127,30 @@ export function Fragment_ac0b06893fc1b15016f3e0532508036d () {
   )
 }
 
+export function Link_8046d9256ab23f71a6de5bfb31030f84 () {
+
+
+  return (
+    <RadixThemesLink asChild={true} css={{"textDecortion": "none", "&:hover": null}} target={isTrue(true) ? `_blank` : ``}>
+  <NextLink href={`https://twitch.tv/fmorenoadmin/`} passHref={true}>
+  <LucideLinkIcon css={{"color": "var(--current-color)"}}>
+  {`link`}
+</LucideLinkIcon>
+</NextLink>
+</RadixThemesLink>
+  )
+}
+
+const pulse = keyframes`
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+`
+
+
 export function Link_7df33d46af770d2d73b9e071ae3b1dd9 () {
 
 
@@ -88,104 +172,6 @@ export function Link_7df33d46af770d2d73b9e071ae3b1dd9 () {
 </RadixThemesButton>
 </NextLink>
 </RadixThemesLink>
-  )
-}
-
-export function Link_f886267ee8ffb1b252b84067a62d38ed () {
-
-
-  return (
-    <RadixThemesLink asChild={true} css={{"textDecortion": "none", "&:hover": null}} target={isTrue(true) ? `_blank` : ``}>
-  <NextLink href={`https://www.instagram.com/fmorenoadmin/`} passHref={true}>
-  <LucideLinkIcon css={{"color": "var(--current-color)"}}>
-  {`link`}
-</LucideLinkIcon>
-</NextLink>
-</RadixThemesLink>
-  )
-}
-
-export function Link_b7a1b9d6ff6b1b2330688a8a4f66b698 () {
-
-
-  return (
-    <RadixThemesLink asChild={true} css={{"textDecortion": "none", "&:hover": null}} target={isTrue(true) ? `_blank` : ``}>
-  <NextLink href={`https://www.youtube.com/@fmorenoadmin`} passHref={true}>
-  <LucideLinkIcon css={{"color": "var(--current-color)"}}>
-  {`link`}
-</LucideLinkIcon>
-</NextLink>
-</RadixThemesLink>
-  )
-}
-
-export function Link_8bc6df5a76cff4312ce093083606ad64 () {
-
-
-  return (
-    <RadixThemesLink asChild={true} css={{"textDecortion": "none", "&:hover": null}} target={isTrue(true) ? `_blank` : ``}>
-  <NextLink href={`https://frankmorenoalburqueque.com/`} passHref={true}>
-  {`Frank Moreno`}
-</NextLink>
-</RadixThemesLink>
-  )
-}
-
-export function Link_8220fcbb3a555b82af06578fc4ec3ba6 () {
-
-
-  return (
-    <RadixThemesLink asChild={true} css={{"textDecortion": "none", "&:hover": null}} target={isTrue(true) ? `_blank` : ``}>
-  <NextLink href={`https://www.facebook.com/fmorenoadmin/`} passHref={true}>
-  <LucideLinkIcon css={{"color": "var(--current-color)"}}>
-  {`link`}
-</LucideLinkIcon>
-</NextLink>
-</RadixThemesLink>
-  )
-}
-
-const pulse = keyframes`
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-`
-
-
-export function Link_8046d9256ab23f71a6de5bfb31030f84 () {
-
-
-  return (
-    <RadixThemesLink asChild={true} css={{"textDecortion": "none", "&:hover": null}} target={isTrue(true) ? `_blank` : ``}>
-  <NextLink href={`https://twitch.tv/fmorenoadmin/`} passHref={true}>
-  <LucideLinkIcon css={{"color": "var(--current-color)"}}>
-  {`link`}
-</LucideLinkIcon>
-</NextLink>
-</RadixThemesLink>
-  )
-}
-
-export function Fragment_966c0378eb9d65bdfb5286644be9b831 () {
-  const [addEvents, connectErrors] = useContext(EventLoopContext);
-  const state = useContext(StateContexts.state)
-
-
-  return (
-    <Fragment>
-  {isTrue(((!state.is_hydrated) || (connectErrors.length > 0))) ? (
-  <Fragment>
-  <LucideWifiOffIcon css={{"color": "crimson", "zIndex": 9999, "position": "fixed", "bottom": "30px", "right": "30px", "animation": `${pulse} 1s infinite`}} size={32}>
-  {`wifi_off`}
-</LucideWifiOffIcon>
-</Fragment>
-) : (
-  <Fragment/>
-)}
-</Fragment>
   )
 }
 
@@ -232,6 +218,20 @@ export function Link_524b860947aaae2285f9d0bc4667582c () {
 </RadixThemesFlex>
 </RadixThemesFlex>
 </RadixThemesButton>
+</NextLink>
+</RadixThemesLink>
+  )
+}
+
+export function Link_b7a1b9d6ff6b1b2330688a8a4f66b698 () {
+
+
+  return (
+    <RadixThemesLink asChild={true} css={{"textDecortion": "none", "&:hover": null}} target={isTrue(true) ? `_blank` : ``}>
+  <NextLink href={`https://www.youtube.com/@fmorenoadmin`} passHref={true}>
+  <LucideLinkIcon css={{"color": "var(--current-color)"}}>
+  {`link`}
+</LucideLinkIcon>
 </NextLink>
 </RadixThemesLink>
   )
@@ -349,6 +349,9 @@ export default function Component() {
 </RadixThemesFlex>
   <RadixThemesFlex css={{"display": "flex", "alignItems": "center", "justifyContent": "center"}}>
   <RadixThemesFlex align={`start`} direction={`column`} gap={`2`}>
+  <RadixThemesFlex align={`center`} css={{"marginBottom": "2em"}} direction={`row`} gap={`2`}>
+  <img css={{"width": "100px", "height": "auto"}} src={`https://www.frankmorenoalburqueque.com/assets/images/ico490x458.webp`}/>
+</RadixThemesFlex>
   <RadixThemesFlex align={`baseline`} css={{"marginBottom": "2em"}} direction={`row`} gap={`2`}>
   <RadixThemesText as={`p`}>
   {`Copyright © 2017-2024`}
@@ -357,7 +360,6 @@ export default function Component() {
   <RadixThemesText as={`p`}>
   {`Todos los derechos reservados.`}
 </RadixThemesText>
-  <img css={{"width": "100px", "height": "auto"}} src={`https://www.frankmorenoalburqueque.com/assets/images/ico490x458.webp`}/>
 </RadixThemesFlex>
 </RadixThemesFlex>
 </RadixThemesFlex>
